@@ -28,7 +28,7 @@ THEN I am again presented with current and future conditions for that city
 GitHub: https://github.com/olivialammam/weather-dashboard
 
 
-Live URL:
+Live URL: https://olivialammam.github.io/weather-dashboard/
 
 
 Mock-Up:
