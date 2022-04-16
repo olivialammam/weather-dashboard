@@ -36,6 +36,28 @@ console.log("URL", 'https://api.openweathermap.org/data/2.5/weather?q='+ cityNam
         $('#currentWind').text("Wind: "+ data2.current.wind_speed);
         $('#currentHumidity').text("Humidity: "+ data2.current.humidity);
         $('#currentUvindex').text("UV Index: "+ data2.current.uvi);
+
+        $('#day0Tempurature').text("Temp: "+ data2.daily [0] .temp.day);
+        $('#day0Wind').text("Wind: "+ data2.daily [0] .wind_speed);
+        $('#day0Humidity').text("Humidity: "+ data2.daily [0] .humidity);
+
+        $('#day1Tempurature').text("Temp: "+ data2.daily [1] .temp.day);
+        $('#day1Wind').text("Wind: "+ data2.daily [1] .wind_speed);
+        $('#day1Humidity').text("Humidity: "+ data2.daily [1] .humidity);
+
+        $('#day2Tempurature').text("Temp: "+ data2.daily [2] .temp.day);
+        $('#day2Wind').text("Wind: "+ data2.daily [2] .wind_speed);
+        $('#day2Humidity').text("Humidity: "+ data2.daily [2] .humidity);
+
+        $('#day3Tempurature').text("Temp: "+ data2.daily [3] .temp.day);
+        $('#day3Wind').text("Wind: "+ data2.daily [3] .wind_speed);
+        $('#day3Humidity').text("Humidity: "+ data2.daily [3] .humidity);
+
+        $('#day4Tempurature').text("Temp: "+ data2.daily [4] .temp.day);
+        $('#day4Wind').text("Wind: "+ data2.daily [4] .wind_speed);
+        $('#day4Humidity').text("Humidity: "+ data2.daily [4] .humidity);
+
+
     });
     });
 
